@@ -39,18 +39,17 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
-    height: 80px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     color: var(--cor-primaria);
 }
@@ -61,10 +60,11 @@ nav {
 }
 
 .nav-links li {
-    margin-left: 2rem;
+    margin-left: 2.5rem;
 }
 
 .nav-links a {
+    font-size: 1.1rem;
     color: var(--cor-de-texto);
     text-decoration: none;
     transition: var(--transicao);
