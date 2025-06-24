@@ -69,6 +69,11 @@ nav {
     transition: var(--transicao);
 }
 
+.nav-links a:visited {
+    color: var(--cor-de-texto);
+    text-decoration: none;
+}
+
 .nav-links a:hover {
     color: var(--cor-primaria);
 }
