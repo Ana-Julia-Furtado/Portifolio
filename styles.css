@@ -64,6 +64,10 @@ nav {
     margin-left: 2rem;
 }
 
+p {
+    text-color: black;
+}
+
 .nav-links a {
     color: var(--cor-de-texto);
     text-decoration: none;
@@ -163,7 +167,6 @@ section {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
     transition: var(--transicao);
-    text-decoration: none;
 }
 
 .projeto-card:hover {
